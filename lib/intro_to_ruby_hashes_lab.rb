@@ -4,7 +4,7 @@ def new_hash
 end
 
 def my_hash
-  my_h = {:one => value1, :two => 5, :three => 7}
+  my_h = {:one => "value one", :two => 5, :three => 7}
   return my_h
 end
 
