@@ -4,12 +4,12 @@ def new_hash
 end
 
 def my_hash
-  my_h = {one: value1, two: 5, three: 7}
+  my_h = {:one => value1, :two => 5, :three => 7}
   return my_h
 end
 
 def pioneer
-  p_hash = {name: "Grace Hopper"}
+  p_hash = {:name => "Grace Hopper"}
   return p_hash
 end
 
@@ -20,4 +20,4 @@ def id_hash_generator(number)
   return my_new_h
 end
 
-puts new_hash, my_hash, pioneer, id_hash_generator
+puts new_hash
