@@ -15,5 +15,6 @@ end
 
 
 def id_hash_generator(number)
-  
+  my_new_h = Hash.new
+  my_new_h[:]
 end
