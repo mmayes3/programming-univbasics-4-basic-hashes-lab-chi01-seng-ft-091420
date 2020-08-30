@@ -16,5 +16,8 @@ end
 
 def id_hash_generator(number)
   my_new_h = Hash.new
-  my_new_h[:]
+  my_new_h[:new_key] = number
+  return my_new_h
 end
+
+puts new_hash, my_hash, pioneer, id_hash_generator
