@@ -20,4 +20,4 @@ def id_hash_generator(number)
   return my_new_h
 end
 
-puts new_hash
+puts my_hash
